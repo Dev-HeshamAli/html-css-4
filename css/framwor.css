@@ -1,0 +1,305 @@
+/* Start box */
+.d-flex{
+    display: flex;
+}
+.wrap-flex{
+    flex-wrap: wrap;
+}
+.flex-w{
+    flex-wrap: wrap;
+}
+.d-grid{
+    display: grid;
+}
+.flex-1{
+    flex: 1;
+}
+.d-block{
+    display: block;
+}
+.gap-20{
+    gap: 20px;
+}
+.gap-10{
+    gap: 10px;
+}
+.align-center{
+    align-items: center;
+}
+.j-between{
+    justify-content: space-between;
+}
+/* End box */
+/* Start padding + margin  */
+.p-0{
+    padding: 0;
+}
+.pb-5{
+    padding-bottom: 5px;
+}
+.p-5{
+    padding: 5px;
+}
+.p-10{
+    padding: 10px;
+}
+.p-15{
+    padding: 15px;
+}
+.p-20{
+    padding: 20px;
+}
+.pt-15{
+    padding-top: 15px;
+}
+.pt-35{
+    padding-top: 35px;
+}
+.pt-25{
+    padding-top: 25px;
+}
+.pb-25{
+    padding-bottom: 25px;
+}
+.pt-10{
+    padding-top: 10px;
+}
+.pb-10{
+    padding-bottom: 10px;
+}
+.pb-15{
+    padding-bottom: 15px;
+}
+.pb-20{
+    padding-bottom: 20px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.p-botton{
+    padding: 5px 17px;
+}
+.m-0{
+    margin: 0;
+}
+.m-5{
+    margin: 5px;
+}
+.m-10{
+    margin: 10px;
+}
+.mr-20{
+    margin-right: 20px;
+}
+.ml-20{
+    margin-left: 20px;
+}
+.m-20{
+    margin: 20px;
+}
+.mt-0{
+    margin-top: 0;
+}
+.mb-0{
+    margin-bottom: 0;
+}
+.pl-10{
+    padding-left: 10px;
+}
+.pr-10{
+    padding-right: 10px;
+}
+.opacty{
+opacity: 0.25;
+}
+.full-w{
+    width: 100%;
+}
+.fit-w{
+    width: fit-content;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-5{
+    margin-top: 5px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.ml-auto{
+    margin-left: auto;
+}
+.mr-auto{
+    margin-right: auto;
+}
+.l-height{
+    line-height:2;
+}
+/* End padding + margin  */
+/* Start color  */
+.bg-white{
+    background-color: white;
+}
+.bg-eee{
+    background-color: #eee;
+}
+.bg-blue{
+    background-color: #1c77ff;
+}
+.bg-red{
+background-color: rgb(254, 35, 35);
+}
+.c-black{
+    color: black;
+}
+.c-gray{
+    color: gray;
+}
+.bg-gray{
+    background-color: rgba(128, 128, 128, 0.41);
+}
+.c-white{
+    color: white;
+}
+.c-blue{
+    color: #3368fc;
+}
+.c-orange{
+    color: orange;
+}
+.bg-orange{
+    background-color: orange;
+}
+.c-green{
+    color: #32ad32;
+}
+.bg-green{
+    background-color: #32ad32;
+}
+.bg-eee{
+    background-color: #eee;
+}
+.c-red{
+    color: rgb(255, 34, 34);
+}
+.bg-red{
+    background-color: #ff2222;
+}
+.t-hov:hover{
+background-color: #eeeeee91;
+outline: #eeeeee91;
+cursor: pointer;
+transition: 0.15s;
+}
+.img-hov:hover {
+    z-index: 1000;
+}
+.f-s-bold{
+    font-weight: 500;
+}
+.done-g{
+    background-color: rgb(0, 128, 38);
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+.done-r{
+    background-color: red;
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+.done-b{
+    background-color: rgb(60, 151, 255);
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+.done-y{
+    background-color: rgb(231, 197, 0);
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+/* End color  */
+/* Start position */
+.p-relative{
+    position: relative;
+}
+/* End position */
+/* Start font */
+.txt-c{
+    text-align: center;
+}
+.fs-12{
+    font-size: 12px;
+}
+.fs-10{
+    font-size: 10px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-15{
+    font-size: 15px;
+}
+.fs-22{
+    font-size: 22px;
+}
+.fs-45{
+    font-size: 45px;
+}
+.fs-20{
+    font-size: 20px;
+}
+/* End font */
+/* start border */
+.rad-10{
+    border-radius: 10px;
+}
+.rad-50{
+    border-radius: 50%;
+}
+.border-b{
+    border-bottom: 1px solid #cccc;
+}
+.border-t{
+    border-top: 1px solid #cccc;
+}
+/* End border */
+/* start media */
+@media(max-width:767px){
+    .txt-c-mobail{
+        text-align: center;
+    }
+}
+@media(max-width:767px){
+    .block-mobail{
+    display: block;
+    }
+}
+
+/* end media */
+/* start componant */
+.between-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.d-flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* end componant */
